@@ -1,0 +1,118 @@
+/* Pubblication styles */
+
+.publication-link {
+    color: #123456; /* Change the color of the text */
+    text-decoration: none; /* Remove the underline */
+    font-size: 1.0em; /* Increase the font size */
+    margin: 10px; /* Add some space around each link */
+    display: flex; /* Change the display to flex */
+    flex-direction: column; /* make the elements stack vertically */
+    align-items: start; /* Align the items to the left */
+  }
+  .publication-link img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.publication-title {
+  font-size: 1.4em;
+  margin: 0;
+}
+
+.publication-authors {
+  font-size: 1.0em;
+  margin: 0;
+}
+
+.publication-journal {
+  font-size: 0.8em;
+  color: #666;
+  margin: 0;
+}
+
+.publication-link:hover {
+  color: #deac5a; /* Change the color of the text when the mouse hovers over it */
+}
+
+
+/* Eductaion bullet list style */
+
+.education-list {
+    list-style-type: none; /* Remove the bullet point */
+    padding: 0; /* Remove the padding */
+    margin: 0; /* Remove the margin */
+  }
+  
+  .education-list li {
+    position: relative; /* Needed to position the icon */
+    padding-left: 45px; /* Space for the icon */
+  }
+  
+  .education-list li::before {
+    content: "\f19d"; /* Unicode for fa-graduation-cap */
+    font-family: "Font Awesome 5 Free"; /* Font family for the icon */
+    font-weight: 900; /* Needed for the correct icon weight */
+    position: absolute;
+    font-size: 1.8em; /* Size of the icon */
+    left: 0;
+    top: 0.1em;
+  }
+  
+  .education-list .title {
+    font-size: 1.4em; /* Size of the title */
+
+  }
+  
+  .education-list .subtitle {
+    font-size: 1em; /* Size of the subtitle */
+    font-style: italic; /* Make the subtitle italic */
+  }
+
+/* SVG picture styles */
+.svg-size-xlarge {
+  width: 24px;
+  height: 24px;
+}
+
+/* Social media link styles */
+.social-link {
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #deac5a; /* Change to the color you want on hover */
+}
+
+/* project sessions style */
+
+.project {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+  font-size: 1.4em;
+}
+
+.project-image {
+  width: 100%;
+  /* Add more styles as needed */
+}
+
+.project-description {
+  font-size: 1.0em;
+}
+
+.project-tasks, .project-ideas {
+  font-size: 1.0em;
+}
+
+.project-tasks ul, .project-ideas ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

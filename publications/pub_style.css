@@ -1,0 +1,78 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #123456;
+    width: 80%;
+    /* overflow: auto; /* Add a scrollbar if necessary */
+    /* white-space: pre-wrap; /* Preserve whitespace and line breaks, and allow word wrap */
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The LinkBox (background) */
+.link-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.link-box {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #123456;
+    border-radius: 5px; /* This line makes the corners round */
+    text-decoration: none;
+    color: #123456;
+    background-color: #cdbff1;
+    margin-right: 15px;
+    font-size: 0.8em;
+    transition: background-color 0.3s ease; /* This line adds a smooth transition effect */
+}
+
+.link-box:hover {
+background-color: #deac5a; /* This line changes the background color on hover */
+}
+
+.link-box:last-child {
+    margin-right: 0;
+}
+
+/* The Text Box */
+#text-box {
+    border: 5px solid #123456; /* Add a border around the text box */
+    background-color: #f5eee5;
+    padding: 10px; /* Add some space between the border and the text */
+    margin: 10px 0; /* Add some space above and below the text box */
+    overflow: auto; /* Add a scrollbar if necessary */
+    word-wrap: break-word; /* Break long words onto the next line */
+    /*white-space: pre-wrap; /* Preserve whitespace and line breaks, and allow word wrap */
+}
