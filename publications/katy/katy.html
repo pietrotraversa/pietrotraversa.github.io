@@ -3,15 +3,20 @@
 
 <head>
     <meta charset="utf-8">
-    <title>From unbiased to maximal entropy random walks on hypergraphs</title>
+    <title>Sample-specific network analysis identifies gene coexpression patterns of immunotherapy response in advanced kidney cancer</title>
     <meta name="author" content="Pietro Traversa">
 
-    <meta name="description" content="Random walks have been intensively studied on regular and complex networks, which are used to represent pairwise interactions. 
-    Nonetheless, recent works have demonstrated that many real-world processes are better captured by higher-order relationships, which are naturally represented by hypergraphs. 
-    Here, we study random walks on hypergraphs. Due to the higher-order nature of these mathematical objects, one can define more than one type of walks. 
-    In particular, we study the unbiased and the maximal entropy random walk on hypergraphs with two types of steps, emphasizing their similarities and differences. 
-    We  characterize these dynamic processes by examining their stationary distributions and associated hitting times. 
-    To illustrate our findings, we present a toy example and conduct extensive analyses of artificial and real hypergraphs, providing insights into both their structural and dynamical properties. We hope that our findings motivate further research extending the analysis to different classes of random walks as well as to practical applications.">
+    <meta name="description" content="Immunotherapies have recently emerged as a standard of care for advanced cancers, offering
+remarkable improvements in patient prognosis. However, only a small subset of patients benefits and
+robust molecular predictors remain elusive. We present a computational framework leveraging sample-
+specific gene co-expression networks to identify features predictive of immunotherapy response in
+kidney cancer. Our results reveal that patients with similar clinical outcomes exhibit comparable gene
+co-expression patterns. Notably, increased gene connectivity and stronger negative gene-gene
+associations are hallmarks of poor responders. We further developed sample-specific pathway-level
+network scores to detect dysregulated biological pathways linked to treatment outcomes. Finally,
+incorporating these sample-level network features improves the predictive performance of gene
+expression-based machine learning models. This work highlights the value of personalized gene
+network features for stratifying cancer patients and optimizing immunotherapy strategies.">
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -62,13 +67,13 @@
 
     <!-- Container (Paper + Abstract) -->
     <div class="w3-content w3-container w3-padding-64" id="about">
-    <h1>From unbiased to maximal entropy random walks on hypergraphs</h1>
-    <p><i>Pietro Traversa, Guilherme Ferraz de Arruda, and Yamir Moreno </i></p>
-    <p class="w3-opacity"><i>Prepint: <a href="https://arxiv.org/abs/2306.09499">ArXiv</a>, Jun 2023</i></p>
+    <h1>Sample-specific network analysis identifies gene co-expression patterns of immunotherapy response in clear cell renal cell carcinoma</h1>
+    <p><i>L Yin, P Traversa, M Elati, Y Moreno, N Marek-Trzonkowska, C Battail </i></p>
+    <p class="w3-opacity"><i>Published in: <a href="https://doi.org/10.1016/j.isci.2025.113061">iScience</a>, Nov 2025</i></p>
     <div class="link-container">
-        <a href="https://arxiv.org/pdf/2306.09499.pdf" class="link-box">PDF</a>
-        <a href="https://arxiv.org/abs/2306.09499" class="link-box">ArXiv</a>
-        <a href="https://github.com/pietrotraversa/random_walks_on_hypergraphs" class="link-box" id="code">Code</a>
+        <a href="https://doi.org/10.1016/j.isci.2025.113061" class="link-box">PDF</a>
+        <a href="https://doi.org/10.1016/j.isci.2025.113061" class="link-box">DOI</a>
+        <a href="https://www.biorxiv.org/content/10.1101/2024.11.02.621068v1.full.pdf" class="link-box">ArXiv</a>
         <a href="#" class="link-box" id="cite">Cite</a>
     </div>
     <!-- The Modal -->
@@ -81,15 +86,13 @@
         <button id="copy-button"> Copy to Clipboard</button>
         </div>
     </div>
-    <img src="../../images/Toy-RW.jpg" alt="Paper" class="w3-left w3-margin-right" style="width:70%">
+    <img src="../../images/KATY_net.jpg" alt="Paper" class="w3-left w3-margin-right" style="width:70%">
     <h3>Abstract</h3>
-    <p>Random walks have been intensively studied on regular and complex networks, which are used to represent pairwise interactions. 
-        Nonetheless, recent works have demonstrated that many real-world processes are better captured by higher-order relationships, which are naturally represented by hypergraphs. 
-        Here, we study random walks on hypergraphs. Due to the higher-order nature of these mathematical objects, one can define more than one type of walks. 
-        In particular, we study the unbiased and the maximal entropy random walk on hypergraphs with two types of steps, emphasizing their similarities and differences. 
-        We  characterize these dynamic processes by examining their stationary distributions and associated hitting times. 
-        To illustrate our findings, we present a toy example and conduct extensive analyses of artificial and real hypergraphs, providing insights into both their structural and dynamical properties. We hope that our findings motivate further research extending the analysis to different classes of random walks as well as to practical applications.</p>
-    
+    <p>Immunotherapies have recently emerged as a standard of care for advanced cancers, offering remarkable improvements in patient prognosis. However, only a small subset of patients benefits and robust molecular predictors remain elusive. 
+        We present a computational framework leveraging samplespecific gene co-expression networks to identify features predictive of immunotherapy response in kidney cancer. 
+Our results reveal that patients with similar clinical outcomes exhibit comparable geneco-expression patterns. Notably, increased gene connectivity and stronger negative gene-gene associations are hallmarks of poor responders. We further developed sample-specific pathway-level network scores to detect dysregulated biological pathways linked to treatment outcomes. 
+Finally, incorporating these sample-level network features improves the predictive performance of gene expression-based machine learning models. This work highlights the value of personalized gene network features for stratifying cancer patients and optimizing immunotherapy strategies.</p>
+
     <div>
 
         

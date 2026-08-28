@@ -8,11 +8,18 @@ var btn = document.getElementById("cite");
 var span = document.getElementsByClassName("close")[0];
 
 var bibtexCitation = `@article{traversa2023unbiased,
-    title={From unbiased to maximal entropy random walks on hypergraphs},
-    author={Traversa, Pietro and de Arruda, Guilherme Ferraz and Moreno, Yamir},
-    journal={arXiv preprint arXiv:2306.09499},
-    year={2023}
-  }`
+  title = {From unbiased to maximal-entropy random walks on hypergraphs},
+  author = {Traversa, Pietro and de Arruda, Guilherme Ferraz and Moreno, Yamir},
+  journal = {Phys. Rev. E},
+  volume = {109},
+  issue = {5},
+  pages = {054309},
+  numpages = {15},
+  year = {2024},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.109.054309}
+}`
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {

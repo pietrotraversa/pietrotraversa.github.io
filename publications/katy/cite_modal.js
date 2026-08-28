@@ -7,16 +7,16 @@ var btn = document.getElementById("cite");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-var bibtexCitation = `@article{traversa2023robustness,
-    title={Robustness and complexity of directed and weighted metabolic hypergraphs},
-    author={Traversa, Pietro and Ferraz de Arruda, Guilherme and Vazquez, Alexei and Moreno, Yamir},
-    journal={Entropy},
-    volume={25},
-    number={11},
-    pages={1537},
-    year={2023},
-    publisher={MDPI}
-  }`
+var bibtexCitation = `@article{YIN2025113061,
+  title = {Sample-specific network analysis identifies gene co-expression patterns of immunotherapy response in clear cell renal cell carcinoma},
+  journal = {iScience},
+  pages = {113061},
+  year = {2025},
+  issn = {2589-0042},
+  doi = {https://doi.org/10.1016/j.isci.2025.113061},
+  author = {Liangwei Yin and Pietro Traversa and Mohamed Elati and Yamir Moreno and Natalia Marek-Trzonkowska and Christophe Battail},
+  keywords = {Sample-specific gene network, Gene co-expression pattern, Network marker, Immunotherapy response, Clear cell renal cell carcinoma}
+}`
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
