@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 2,
+  "citationCountsUpdatedAt": "2026-08-31T11:31:06+00:00",
+  "publications": [
+    {
+      "id": "metabolic-hypergraphs",
+      "title": "Robustness and complexity of directed and weighted metabolic hypergraphs",
+      "authors": [
+        "Pietro Traversa",
+        "Guilherme Ferraz de Arruda",
+        "Alexei Vazquez",
+        "Yamir Moreno"
+      ],
+      "publicationDate": "2023",
+      "citation": "Entropy 25.11 (2023)",
+      "semanticScholarId": "DOI:10.3390/e25111537",
+      "citationCount": 11,
+      "semanticScholarUrl": "https://www.semanticscholar.org/paper/de5f39ae3daf79c8e993d5026ca88b8d4d188e33",
+      "detailUrl": "publications/metabolichypergraphs/metabolichypergraphs.html",
+      "semanticScholarPaperId": "de5f39ae3daf79c8e993d5026ca88b8d4d188e33"
+    },
+    {
+      "id": "random-walks-hypergraphs",
+      "title": "From unbiased to maximal entropy random walks on hypergraphs",
+      "authors": [
+        "Pietro Traversa",
+        "Guilherme Ferraz de Arruda",
+        "Yamir Moreno"
+      ],
+      "publicationDate": "2024",
+      "citation": "Physical Review E 109 (5), 054309",
+      "semanticScholarId": "ARXIV:2306.09499",
+      "citationCount": 4,
+      "semanticScholarUrl": "https://www.semanticscholar.org/paper/d41361095f2c22181a2da1e815f0aea664596b3d",
+      "detailUrl": "publications/urwmerw/urwmerw.html",
+      "semanticScholarPaperId": "d41361095f2c22181a2da1e815f0aea664596b3d"
+    },
+    {
+      "id": "rumor-propagation-hypergraphs",
+      "title": "Rumor propagation on hypergraphs",
+      "authors": [
+        "KA Oliveira",
+        "P Traversa",
+        "G Ferraz de Arruda",
+        "Y Moreno"
+      ],
+      "publicationDate": "2026",
+      "citation": "Nature communications 17.1 (2026)",
+      "semanticScholarId": "DOI:10.1038/s41467-026-70096-w",
+      "citationCount": 6,
+      "semanticScholarUrl": "https://www.semanticscholar.org/paper/4ffe2e544a58255cc34184cda323c8b02a17a4e6",
+      "detailUrl": "publications/rumormodel/rumormodel.html",
+      "semanticScholarPaperId": "4ffe2e544a58255cc34184cda323c8b02a17a4e6"
+    },
+    {
+      "id": "kidney-cancer-coexpression",
+      "title": "Sample-specific network analysis identifies gene coexpression patterns of immunotherapy response in advanced kidney cancer",
+      "authors": [
+        "L Yin",
+        "P Traversa",
+        "M Elati",
+        "Y Moreno",
+        "N Marek-Trzonkowska",
+        "C Battail"
+      ],
+      "publicationDate": "2025",
+      "citation": "Iscience 28.8 (2025)",
+      "semanticScholarId": "DOI:10.1016/j.isci.2025.113061",
+      "citationCount": 3,
+      "semanticScholarUrl": "https://www.semanticscholar.org/paper/6a6dbf800b8c2c9d10a626ffece3a9a3c3cac2a2",
+      "detailUrl": "publications/katy/katy.html",
+      "semanticScholarPaperId": "6a6dbf800b8c2c9d10a626ffece3a9a3c3cac2a2"
+    }
+  ]
+}

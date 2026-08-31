@@ -212,6 +212,42 @@ button:focus-visible {
   list-style: none;
 }
 
+.publication-controls {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 42px;
+  margin-top: 20px;
+}
+
+.publication-sort-button {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  padding: 9px 14px;
+  color: var(--ink);
+  font: inherit;
+  background: #fff;
+  border: 1px solid #8a5c10;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.publication-sort-button[hidden] {
+  display: none;
+}
+
+.publication-sort-button:hover,
+.publication-sort-button:focus-visible {
+  color: #fff;
+  background: #8a5c10;
+}
+
+.publication-loading,
+.publication-error {
+  padding: 12px 10px;
+  color: #595959;
+}
+
 .publication-list li + li {
   margin-top: 12px;
 }
@@ -243,6 +279,13 @@ button:focus-visible {
 .publication-journal {
   color: #595959;
   font-size: 0.9em;
+}
+
+.publication-citation-count {
+  margin-top: 4px;
+  color: #72501a;
+  font-size: 0.85em;
+  font-weight: 700;
 }
 
 .contact-photo {
@@ -298,6 +341,15 @@ body.modal-open {
 
   .contact-details p {
     display: block;
+  }
+
+  .publication-controls,
+  .publication-sort-button {
+    width: 100%;
+  }
+
+  .publication-sort-button {
+    justify-content: center;
   }
 }
 

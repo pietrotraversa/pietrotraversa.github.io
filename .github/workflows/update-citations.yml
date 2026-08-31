@@ -1,0 +1,37 @@
+name: Update citation counts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-citation-counts
+  cancel-in-progress: false
+
+jobs:
+  update-citations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v4
+
+      - name: Fetch citation counts
+        env:
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+        run: python3 tools/update_citations.py
+
+      - name: Save updated counts
+        run: |
+          if git diff --quiet -- publications/publications.json; then
+            echo "Citation counts have not changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publications/publications.json
+          git commit -m "Update citation counts"
+          git push
