@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "citationCountsUpdatedAt": "2026-09-07T12:40:18+00:00",
+  "citationCountsUpdatedAt": "2026-09-14T12:54:44+00:00",
   "publications": [
     {
       "id": "metabolic-hypergraphs",
@@ -14,7 +14,7 @@
       "publicationDate": "2023",
       "citation": "Entropy 25.11 (2023)",
       "semanticScholarId": "DOI:10.3390/e25111537",
-      "citationCount": 11,
+      "citationCount": 12,
       "semanticScholarUrl": "https://www.semanticscholar.org/paper/de5f39ae3daf79c8e993d5026ca88b8d4d188e33",
       "detailUrl": "publications/metabolichypergraphs/metabolichypergraphs.html",
       "semanticScholarPaperId": "de5f39ae3daf79c8e993d5026ca88b8d4d188e33"
