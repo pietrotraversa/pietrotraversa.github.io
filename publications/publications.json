@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "citationCountsUpdatedAt": "2026-10-19T13:25:19+00:00",
+  "citationCountsUpdatedAt": "2026-10-26T13:10:49+00:00",
   "publications": [
     {
       "id": "metabolic-hypergraphs",
@@ -47,7 +47,7 @@
       "publicationDate": "2026",
       "citation": "Nature communications 17.1 (2026)",
       "semanticScholarId": "DOI:10.1038/s41467-026-70096-w",
-      "citationCount": 8,
+      "citationCount": 9,
       "semanticScholarUrl": "https://www.semanticscholar.org/paper/4ffe2e544a58255cc34184cda323c8b02a17a4e6",
       "detailUrl": "publications/rumormodel/rumormodel.html",
       "semanticScholarPaperId": "4ffe2e544a58255cc34184cda323c8b02a17a4e6"
